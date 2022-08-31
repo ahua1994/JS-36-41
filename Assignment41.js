@@ -11,6 +11,7 @@
 function uber(arr) {
     let newArr = [];
     for (let i = 0; i < arr.length; i++) {
+        newArr[i] = 1;
         for (let j = 0; j < arr.length; j++) {
             if (i != j) {
                 newArr[i] *= arr[j];
